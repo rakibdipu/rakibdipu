@@ -1,8 +1,8 @@
 <div align="center">
 
-  <!-- Header Banner -->
+  <!-- Custom Native Futuristic Header Banner -->
   <a href="https://github.com/rakibdipu">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=MD%20Rakib%20Hassan%20Dipu&fontSize=38&fontAlignY=38&desc=IoT%20%26%20Robotics%20Engineer%20%7C%20AI%20%26%20Embedded%20Systems%20Specialist&descFontSize=17&descAlignY=62" alt="Header Banner" />
+    <img src="./assets/header.svg" alt="MD Rakib Hassan Dipu - IoT & Robotics Engineer" width="100%" />
   </a>
 
   <!-- Animated Typing Subtitle -->
@@ -12,7 +12,7 @@
     </a>
   </p>
 
-  <!-- Quick Badges / Status -->
+  <!-- Quick Action Badges -->
   <p align="center">
     <a href="https://linkedin.com/in/rakibhassandipu" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -180,7 +180,7 @@ Passionate engineering student specializing in **IoT, Robotics, Edge AI, and Emb
   <i>⚡ "Engineering intelligent hardware and AI solutions to solve real-world challenges." ⚡</i>
 </p>
 
-<!-- Dynamic Wave Footer -->
+<!-- Native Footer Line -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" width="100%"/>
+  <img src="./assets/footer.svg" width="100%" alt="Footer Divider"/>
 </p>
