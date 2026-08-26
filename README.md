@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
   <!-- Header Banner / Typing SVG -->
   <a href="https://github.com/rakibdipu">
