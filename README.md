@@ -150,7 +150,13 @@ Passionate engineering student specializing in **IoT, Robotics, Edge AI, and Emb
     <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=rakibdipu&show_icons=true&theme=tokyonight&layout=compact&hide_border=true&title_color=00D2FF&text_color=c0caf5&bg_color=1a1b26" alt="Top Languages" width="45%" />
   </p>
   <p align="center">
-    <img src="https://streak-stats.demolab.com?user=rakibdipu&theme=tokyonight&hide_border=true&stroke=00D2FF&ring=00D2FF&fire=00D2FF&currStreakLabel=00D2FF" alt="GitHub Streak" width="95%" />
+    <a href="https://github.com/rakibdipu/Bridge-SHM-DigitalTwin-Structural-Health-Monitoring-" target="_blank">
+      <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=rakibdipu&repo=Bridge-SHM-DigitalTwin-Structural-Health-Monitoring-&theme=tokyonight&hide_border=true&title_color=00D2FF&icon_color=00D2FF&text_color=c0caf5&bg_color=1a1b26" alt="Bridge SHM Pin" width="47%" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/rakibdipu/WiFi-CSI-Indoor-Localization-System" target="_blank">
+      <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=rakibdipu&repo=WiFi-CSI-Indoor-Localization-System&theme=tokyonight&hide_border=true&title_color=00D2FF&icon_color=00D2FF&text_color=c0caf5&bg_color=1a1b26" alt="WiFi CSI Pin" width="47%" />
+    </a>
   </p>
 </div>
 
