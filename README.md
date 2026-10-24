@@ -96,8 +96,16 @@ I'm an **IoT & Robotics Engineering student** at the intersection of **hardware 
   </a>
 </div>
 <div align="center">
+  <a href="https://github.com/rakibdipu/spirometer_Github">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=rakibdipu&repo=spirometer_Github&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=c0caf5&bg_color=0d1117" width="48%" />
+  </a>
   <a href="https://github.com/rakibdipu/Opportunity-Pro">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=rakibdipu&repo=Opportunity-Pro&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=c0caf5&bg_color=0d1117" width="48%" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/rakibdipu/Travel-Management-system">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=rakibdipu&repo=Travel-Management-system&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=c0caf5&bg_color=0d1117" width="48%" />
   </a>
   <a href="https://github.com/rakibdipu/YouTube-video-Summarizer-">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=rakibdipu&repo=YouTube-video-Summarizer-&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=c0caf5&bg_color=0d1117" width="48%" />
@@ -106,23 +114,34 @@ I'm an **IoT & Robotics Engineering student** at the intersection of **hardware 
 
 ---
 
-## 📚 Publication
+## 📚 Publications & Research
 
 <div align="left">
 
+### 1. [IEEE Xplore] Panic Attack Detection for Autism Spectrum Disorder
 ```
-📄  Lightweight IoT-Driven Panic Attack Detection and Caregiver Alert System
-    for Autism Spectrum Disorder
+📄 Lightweight IoT-Driven Panic Attack Detection and Caregiver Alert System for Autism Spectrum Disorder
 ```
-
 | Field | Detail |
 |:--|:--|
-| **Authors** | **MD Rakib Hassan Dipu** (First Author) |
-| **Venue** | IEEE RAAICON 2025 — 4th International Conf. on Robotics, Automation, AI & IoT |
-| **Host** | Military Institute of Science & Technology (MIST), Dhaka, Bangladesh |
-| **Date** | November 27–28, 2025 |
-| **ISBN** | `979-8-3315-9281-3/25` · ©2025 IEEE |
-| **Keywords** | `IoT` `ASD` `Panic Detection` `Embedded ML` `Wearable Sensors` |
+| **Authors** | **MD Rakib Hassan Dipu** (First Author), et al. |
+| **Conference** | IEEE 4th RAAICON 2025, MIST, Dhaka, Bangladesh |
+| **Status** | ✅ Published & Indexed on [IEEE Xplore (Doc #11502258)](https://ieeexplore.ieee.org/document/11502258) |
+| **Keywords** | `IoT Sensing` · `ESP32-CAM` · `Edge ML` · `HRV & GSR` · `GSM/MQTT` |
+
+<br/>
+
+### 2. [Taylor & Francis Books] RTOS-Based Railway Level Crossing System
+```
+📄 RTOS-Based Intelligent Railway Level Crossing System Using ESP32-S3
+```
+| Field | Detail |
+|:--|:--|
+| **Authors** | **MD Rakib Hassan Dipu** (First Author), Saurav Chandra Das |
+| **Conference** | International Conference on Electrical, Computer & Communication Technology (ECCT 2026) |
+| **Publisher** | Taylor & Francis Books |
+| **Status** | ✅ Accepted for Publication · Selected for Oral Presentation |
+| **Keywords** | `ESP32-S3` · `FreeRTOS` · `Deterministic FSM` · `Safety-Critical Systems` |
 
 </div>
 
@@ -130,12 +149,16 @@ I'm an **IoT & Robotics Engineering student** at the intersection of **hardware 
 
 ## 🏆 Achievements & Leadership
 
-| # | Achievement |
-|:---:|:---|
-| 🥈 | **1st Runner-Up** — Hult Prize Campus Competition 2025 |
-| 📝 | **First-Author IEEE Paper** — Published & Presented @ RAAICON 2025 |
-| 🤝 | **Deputy Organizing Secretary** — UFTB Robotics Club |
-| 🎓 | **21st Century Employability Skilling** (Intermediate) — Wadhwani Foundation |
+| # | Achievement / Role | Organization / Venue |
+|:---:|:---|:---|
+| 🏅 | **Finalist — ImpactX 2026** | *SmartSpiro*: Intelligent AI/IoT Spirometry Device |
+| 🥈 | **1st Runner-Up** — Hult Prize Campus Competition 2025 | Sustainable Tech Venture for UN SDGs |
+| 📝 | **First-Author IEEE Conference Paper** | Published & Indexed on IEEE Xplore @ RAAICON 2025 |
+| 📖 | **Taylor & Francis Accepted Paper** | ECCT 2026 Oral Presentation on RTOS Safety Systems |
+| ☁️ | **Google Cloud Computing Scholarship** | Awarded for technical merit in cloud architectures |
+| 🩸 | **President / Organizing Secretary** | BADHAN (Voluntary Blood Donors' Organization), UFTB Unit |
+| 🤖 | **Deputy Organizing Secretary** | UFTB Robotics Club (*ROBOFUSION 1.0 Coordinator*) |
+| 🌐 | **Joint General Secretary (2021–2022)** | National Children's Task Force (NCTF) — 40,000+ members |
 
 ---
 
