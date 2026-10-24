@@ -1,60 +1,59 @@
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!--                     HEADER BANNER                             -->
+<!--                     HERO BANNER & BRANDING                    -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 <div align="center">
   <a href="https://github.com/rakibdipu">
-    <img src="./assets/header.svg" width="100%" alt="Rakib Hassan Dipu — IoT · Robotics · Edge AI" />
+    <img src="./assets/header.svg" width="100%" alt="Rakib Hassan Dipu — Embedded Systems · Robotics · Edge AI" />
   </a>
 </div>
 
-<!-- Typing animation -->
+<!-- Dynamic Typing Animation -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&repeat=true&width=750&lines=B.Sc.+in+IoT+%26+Robotics+Engineering+%F0%9F%A4%96;Embedded+Systems+%26+FreeRTOS+Architect+%E2%9A%A1;Edge+AI+%26+Digital+Twin+Systems+Researcher+%F0%9F%A7%A0;IEEE+First-Author+%7C+RAAICON+2025+Published+%F0%9F%93%9D;Bridging+Physical+Hardware+%26+Cognitive+Intelligence+%F0%9F%8C%90"
-    alt="Typing Animation"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3200&pause=1200&color=38BDF8&center=true&vCenter=true&repeat=true&width=780&lines=Real-Time+Embedded+Systems+%26+Deterministic+FreeRTOS+%E2%9A%A1;Sensor+Fusion%2C+Vibration+FFT+DSP+%26+Edge+ML+%F0%9F%A7%A0;Autonomous+Agricultural+Robotics+with+ROS+%F0%9F%A4%96;Hardware-Software+Integration+%7C+PCB+to+Firmware+%F0%9F%94%8C;Engineering+Physical+Systems+that+Sense%2C+Compute+%26+Act+%F0%9F%8C%90"
+    alt="Typing Subtitle"
   />
 </p>
 
-<!-- Social & Portfolio links -->
+<!-- Quick Navigation Action Bar -->
 <p align="center">
-  <a href="https://rakibdipu.github.io"><img src="https://img.shields.io/badge/Portfolio-rakibdipu.github.io-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://rakibdipu.github.io"><img src="https://img.shields.io/badge/Live%20Portfolio-rakibdipu.github.io-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
   &nbsp;
   <a href="https://linkedin.com/in/rakibhassandipu"><img src="https://img.shields.io/badge/LinkedIn-rakibhassandipu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   &nbsp;
-  <a href="mailto:rakibdipu007@gmail.com"><img src="https://img.shields.io/badge/Gmail-rakibdipu007-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  &nbsp;
-  <a href="https://ieeexplore.ieee.org/document/11502258"><img src="https://img.shields.io/badge/IEEE%20Xplore-Author%20Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white" /></a>
+  <a href="mailto:rakibdipu007@gmail.com"><img src="https://img.shields.io/badge/Email-rakibdipu007-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   &nbsp;
   <a href="https://codeforces.com/profile/Hard_lolly"><img src="https://img.shields.io/badge/Codeforces-Hard__lolly-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
 </p>
 
-<!-- Status & Identity Badges -->
+<!-- Identity & Engineering Standing -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Degree-B.Sc.%20in%20IoT%20%26%20Robotics%20Engineering-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Institution-University%20of%20Frontier%20Technology%2C%20BD-indigo?style=flat-square" />
-  <img src="https://img.shields.io/badge/Academic%20Standing-Level%204%20Term%201%20(4.1)-purple?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Firmware%20%7C%20Edge%20AI%20%7C%20Robotics-0284c7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Academic%20Standing-Level%204%20Term%201%20(4.1)-0f172a?style=flat&labelColor=1e293b&color=38bdf8" />
+  <img src="https://img.shields.io/badge/Degree-B.Sc.%20in%20IoT%20%26%20Robotics%20Engineering-0f172a?style=flat&labelColor=1e293b&color=818cf8" />
+  <img src="https://img.shields.io/badge/Institution-UFTB%20Bangladesh-0f172a?style=flat&labelColor=1e293b&color=34d399" />
+  <img src="https://img.shields.io/badge/Focus-Firmware%20%7C%20Edge%20AI%20%7C%20Robotics-0f172a?style=flat&labelColor=1e293b&color=c084fc" />
 </p>
 
-<br/>
+---
+
+## ⚡ Engineering Summary
+
+```yaml
+role: "IoT, Embedded Firmware & Robotics Engineer"
+education: "B.Sc. in IoT and Robotics Engineering, University of Frontier Technology, Bangladesh (UFTB)"
+core_focus:
+  - "Deterministic RTOS firmware & concurrent embedded state machines (ESP32-S3 / C++)"
+  - "Physical sensor fusion, on-chip vibration FFT DSP & RF Channel State Information (CSI)"
+  - "Autonomous mobile robotics with ROS Navigation & differential drive kinematics"
+  - "Edge machine learning deployment on resource-constrained microcontrollers"
+toolchain: "C/C++, FreeRTOS, ESP-IDF, Python, PyTorch, ROS, Altium Designer, EasyEDA, Linux"
+```
+
+I build systems that bridge physical hardware and intelligence — from schematic capture and multi-layer PCB routing to deterministic real-time firmware, digital signal processing, and low-latency cloud telemetry.
 
 ---
 
-## 🙋‍♂️ Engineering Profile & Philosophy
-
-> *"I bridge physical silicon and neural algorithms — engineering deterministic embedded firmware, physical sensor-fusion pipelines, and lightweight edge intelligence that solve mission-critical real-world problems."*
-
-I am an **IoT & Robotics Engineering student** at the University of Frontier Technology, Bangladesh (UFTB). My research and engineering work spans **real-time deterministic firmware (FreeRTOS)**, **RF-based Channel State Information (CSI) sensing**, **structural digital twins with on-chip FFT DSP**, **autonomous mobile robotics (ROS)**, and **telehealth edge intelligence**.
-
-- 🔭 **Current Engineering** → Hardware-in-the-loop sensor integration, edge vibration FFT DSP on ESP32-S3, and device-free RF human presence tracking.
-- 🔬 **Research Core** → Real-Time Operating Systems (RTOS), Embedded Machine Learning, Digital Twin Synchronizations, and Low-Power Bio-telemetry.
-- 📑 **Peer-Reviewed Publications** → First-author paper published at **IEEE RAAICON 2025**; accepted book chapter at **Taylor & Francis / ECCT 2026**.
-- 🏆 **Recent Recognition** → Finalist at **ImpactX 2026** (SmartSpiro); 1st Runner-Up at **Hult Prize Campus 2025**.
-
----
-
-## 🚀 Flagship Engineering Projects
+## 🚀 Featured Engineering Projects
 
 ### 🛰️ 1. Edge Sensing & Digital Twin Systems
 
@@ -104,7 +103,51 @@ I am an **IoT & Robotics Engineering student** at the University of Frontier Tec
 
 ---
 
-## 📚 Academic Publications & Peer-Reviewed Research
+## 🛠️ Technical Capabilities & Domain Pillars
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ Firmware & Embedded Systems</h4>
+      <ul>
+        <li><b>Languages:</b> C, C++ (OOP 2.0, STL), Python, Embedded C</li>
+        <li><b>MCUs & SOCs:</b> ESP32-S3 (Dual-Core, Octal PSRAM), ESP32-CAM, ESP8266, STM32 basics, Arduino</li>
+        <li><b>RTOS & Concurrency:</b> FreeRTOS (Task Priority, Queues, Mutex, Event Groups, Semaphores)</li>
+        <li><b>Architecture:</b> Deterministic FSMs, ISR Callbacks, Watchdogs, Low-Power Sleep Modes</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📡 Protocols & Telemetry</h4>
+      <ul>
+        <li><b>Buses:</b> I2C, SPI, UART, RS-485 Modbus, ADC/DAC, PWM</li>
+        <li><b>Wireless & Networking:</b> Wi-Fi CSI (PHY-layer OFDM), BLE, MQTT, WebSockets, HTTP REST</li>
+        <li><b>Cellular & Transceivers:</b> SIM800L GSM/GPRS, MAX30102 PPG, MPU9250 MEMS, HC-SR04, PMS5003</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧠 Edge AI, DSP & Machine Learning</h4>
+      <ul>
+        <li><b>Frameworks:</b> PyTorch, TensorFlow, Scikit-Learn, OpenCV</li>
+        <li><b>Signal Processing:</b> 1024-Point on-chip FFT, Hampel Filtering, Butterworth Bandpass, 2D Kalman Filter</li>
+        <li><b>Edge Models:</b> Decision Trees, Random Forest, SVM (quantized for MCU fixed-point inference), CTranslate2 int8</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤖 Robotics & Hardware Prototyping</h4>
+      <ul>
+        <li><b>Robotics:</b> ROS (Noetic/ROS 2), <code>move_base</code>, SLAM, Differential Drive PID, Kinematics</li>
+        <li><b>EDA & CAD:</b> EasyEDA, Altium Designer (Schematics & PCB Layout), SolidWorks</li>
+        <li><b>Software Tools:</b> Linux (Ubuntu), Git, CMake, Docker, FastAPI, SQLite3, Cisco Packet Tracer</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📚 Research & Publications
 
 <div align="left">
 
@@ -112,12 +155,10 @@ I am an **IoT & Robotics Engineering student** at the University of Frontier Tec
 ```
 📄 Lightweight IoT-Driven Panic Attack Detection and Caregiver Alert System for Autism Spectrum Disorder
 ```
-| Field | Specification |
-|:--|:--|
-| **Authors** | **MD Rakib Hassan Dipu** (First Author), et al. |
-| **Conference** | IEEE 4th International Conference on Robotics, Automation, AI & IoT (RAAICON 2025) |
-| **Publisher** | **IEEE** · Indexed on [IEEE Xplore (Document #11502258)](https://ieeexplore.ieee.org/document/11502258) |
-| **Architecture** | ESP32-CAM optical flow + MAX30102 HRV + Grove GSR + on-device ML + Dual-channel GSM/MQTT alert |
+* **Authors:** **MD Rakib Hassan Dipu** (First Author), et al.
+* **Venue:** IEEE 4th International Conference on Robotics, Automation, AI & IoT (RAAICON 2025)
+* **Publisher:** **IEEE** · Indexed on [IEEE Xplore (Document #11502258)](https://ieeexplore.ieee.org/document/11502258)
+* **Architecture:** ESP32-CAM optical flow + MAX30102 HRV + Grove GSR + on-device ML + Dual-channel GSM/MQTT alert
 
 <details>
 <summary><b>📑 Click to expand BibTeX Citation</b></summary>
@@ -141,13 +182,10 @@ I am an **IoT & Robotics Engineering student** at the University of Frontier Tec
 ```
 📄 RTOS-Based Intelligent Railway Level Crossing System Using ESP32-S3
 ```
-| Field | Specification |
-|:--|:--|
-| **Authors** | **MD Rakib Hassan Dipu** (First Author), Saurav Chandra Das |
-| **Conference** | International Conference on Electrical, Computer and Communication Technology (ECCT 2026) |
-| **Publisher** | **Taylor & Francis Books** |
-| **Status** | ✅ Accepted for Publication · Selected for Oral Presentation |
-| **Architecture** | Dual-core ESP32-S3 + FreeRTOS 6-task priority queue + Deterministic FSM + Redundant ultrasonic/IR |
+* **Authors:** **MD Rakib Hassan Dipu** (First Author), Saurav Chandra Das
+* **Venue:** International Conference on Electrical, Computer and Communication Technology (ECCT 2026)
+* **Publisher:** **Taylor & Francis Books** · Accepted for Publication & Selected for Oral Presentation
+* **Architecture:** Dual-core ESP32-S3 + FreeRTOS 6-task priority queue + Deterministic FSM + Redundant ultrasonic/IR
 
 <details>
 <summary><b>📑 Click to expand BibTeX Citation</b></summary>
@@ -166,51 +204,7 @@ I am an **IoT & Robotics Engineering student** at the University of Frontier Tec
 
 ---
 
-## 🛠️ Technical Competencies & Toolchain
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>⚡ Firmware & Embedded Systems</h4>
-      <ul>
-        <li><b>Languages:</b> C, C++ (OOP 2.0, STL), Python, Embedded C</li>
-        <li><b>MCUs & SOCs:</b> ESP32-S3 (Dual-Core, Octal PSRAM), ESP32-CAM, ESP8266, STM32 basics, Arduino</li>
-        <li><b>RTOS & Concurrency:</b> FreeRTOS (Task Priority, Queues, Mutex, Event Groups, Semaphores)</li>
-        <li><b>Embedded Architecture:</b> Deterministic FSMs, ISR Callbacks, Watchdogs, Power Sleep Modes</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📡 Protocols & Hardware Interfacing</h4>
-      <ul>
-        <li><b>Buses:</b> I2C, SPI, UART, RS-485 Modbus, ADC/DAC, PWM</li>
-        <li><b>Wireless & Telemetry:</b> Wi-Fi CSI (PHY-layer OFDM), BLE, MQTT, WebSockets, HTTP REST</li>
-        <li><b>Cellular & Sensors:</b> SIM800L GSM/GPRS, MAX30102 PPG, MPU9250 MEMS, HC-SR04, PMS5003</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 Edge AI, DSP & Machine Learning</h4>
-      <ul>
-        <li><b>Frameworks:</b> PyTorch, TensorFlow, Scikit-Learn, OpenCV</li>
-        <li><b>Signal Processing:</b> 1024-Point on-chip FFT, Hampel Filtering, Butterworth Bandpass, 2D Kalman Filter</li>
-        <li><b>Edge Models:</b> Decision Trees, Random Forest, SVM (quantized for MCU fixed-point inference), CTranslate2 int8</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🤖 Robotics, EDA & Engineering Tools</h4>
-      <ul>
-        <li><b>Robotics:</b> ROS (Noetic/ROS 2), <code>move_base</code>, SLAM, Differential Drive PID, Kinematics</li>
-        <li><b>EDA & CAD:</b> EasyEDA, Altium Designer (Schematics & PCB Layout), SolidWorks</li>
-        <li><b>Software Tools:</b> Linux (Ubuntu 24/26), Git, CMake, Docker, FastAPI, SQLite3, Cisco Packet Tracer</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🏆 Verified Honors & Leadership
+## 🏆 Honors & Verified Leadership
 
 | Honor / Role | Organization / Venue | Scope & Impact |
 |:---|:---|:---|
@@ -225,7 +219,7 @@ I am an **IoT & Robotics Engineering student** at the University of Frontier Tec
 
 ---
 
-## 📊 GitHub Analytics & Code Activity
+## 📊 Activity & Telemetry
 
 <div align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=rakibdipu&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=c0caf5&bg_color=0d1117&count_private=true&rank_icon=github" width="49%" />
@@ -234,7 +228,7 @@ I am an **IoT & Robotics Engineering student** at the University of Frontier Tec
 
 ---
 
-## 🤝 Let's Connect & Collaborate
+## 🤝 Let's Connect
 
 <p align="center">
   <a href="https://rakibdipu.github.io">

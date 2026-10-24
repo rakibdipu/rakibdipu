@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="100%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 36" width="100%" height="36">
   <defs>
-    <linearGradient id="footer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
-      <stop offset="20%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#7928CA" stop-opacity="0.9" />
-      <stop offset="80%" stop-color="#FF0080" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#FF0080" stop-opacity="0" />
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
     </linearGradient>
+    <filter id="nodeGlow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <path d="M 0 20 L 420 20 L 450 32 L 480 20 L 900 20" fill="none" stroke="url(#footer-grad)" stroke-width="2"/>
-  <circle cx="450" cy="32" r="3.5" fill="#00f2fe"/>
-  <circle cx="450" cy="32" r="7" fill="none" stroke="#7928CA" stroke-width="1.2"/>
+  <path d="M 0 18 L 430 18 L 460 28 L 490 18 L 920 18" fill="none" stroke="url(#footerGrad)" stroke-width="1.8"/>
+  <circle cx="460" cy="28" r="3.5" fill="#38bdf8" filter="url(#nodeGlow)"/>
+  <circle cx="460" cy="28" r="7" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-dasharray="2 3"/>
 </svg>
