@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
+  <defs>
+    <!-- Base Deep Space Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Electric Cyan Glow -->
+    <radialGradient id="cyanGlow" cx="12%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Deep Indigo / Violet Glow -->
+    <radialGradient id="indigoGlow" cx="88%" cy="55%" r="65%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#4338ca" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Sleek Neon Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#818cf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Name Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Tech Dot Pattern -->
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#475569" fill-opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="240" fill="url(#bgGrad)"/>
+  <rect width="1000" height="240" fill="url(#cyanGlow)"/>
+  <rect width="1000" height="240" fill="url(#indigoGlow)"/>
+  <rect width="1000" height="240" fill="url(#dotGrid)"/>
+
+  <!-- Top and Bottom Neon Edge Accents -->
+  <rect x="0" y="0" width="1000" height="2" fill="url(#borderGrad)"/>
+  <rect x="0" y="238" width="1000" height="2" fill="url(#borderGrad)" opacity="0.6"/>
+
+  <!-- Sleek Cyber Circuit Lines -->
+  <path d="M 0 60 L 60 60 L 90 90 L 130 90" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.4"/>
+  <circle cx="130" cy="90" r="2.5" fill="#38bdf8" filter="url(#glow)"/>
+
+  <path d="M 0 180 L 80 180 L 110 150 L 140 150" fill="none" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.3"/>
+  <circle cx="140" cy="150" r="2" fill="#818cf8"/>
+
+  <path d="M 1000 70 L 930 70 L 900 100 L 860 100" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.4"/>
+  <circle cx="860" cy="100" r="2.5" fill="#818cf8" filter="url(#glow)"/>
+
+  <path d="M 1000 170 L 940 170 L 910 140 L 870 140" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.3"/>
+  <circle cx="870" cy="140" r="2" fill="#38bdf8"/>
+
+  <!-- Left Futuristic Hardware Processor Emblem -->
+  <g transform="translate(110, 120)">
+    <!-- Outer Cyan Ring with Pulse Marks -->
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="6 4"/>
+    <circle cx="0" cy="0" r="48" fill="#0b1120" stroke="#1e293b" stroke-width="1.5"/>
+
+    <!-- Processor Body -->
+    <rect x="-24" y="-24" width="48" height="48" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.6" filter="url(#glow)"/>
+
+    <!-- Chip Contact Pins (8 Channels) -->
+    <line x1="-30" y1="-12" x2="-24" y2="-12" stroke="#38bdf8" stroke-width="1.8"/>
+    <line x1="-30" y1="0"   x2="-24" y2="0"   stroke="#38bdf8" stroke-width="1.8"/>
+    <line x1="-30" y1="12"  x2="-24" y2="12"  stroke="#38bdf8" stroke-width="1.8"/>
+
+    <line x1="24"  y1="-12" x2="30"  y2="-12" stroke="#818cf8" stroke-width="1.8"/>
+    <line x1="24"  y1="0"   x2="30"  y2="0"   stroke="#818cf8" stroke-width="1.8"/>
+    <line x1="24"  y1="12"  x2="30"  y2="12"  stroke="#818cf8" stroke-width="1.8"/>
+
+    <line x1="-12" y1="-30" x2="-12" y2="-24" stroke="#38bdf8" stroke-width="1.8"/>
+    <line x1="0"   y1="-30" x2="0"   y2="-24" stroke="#38bdf8" stroke-width="1.8"/>
+    <line x1="12"  y1="-30" x2="12"  y2="-24" stroke="#38bdf8" stroke-width="1.8"/>
+
+    <line x1="-12" y1="24"  x2="-12" y2="30"  stroke="#818cf8" stroke-width="1.8"/>
+    <line x1="0"   y1="24"  x2="0"   y2="30"  stroke="#818cf8" stroke-width="1.8"/>
+    <line x1="12"  y1="24"  x2="12"  y2="30"  stroke="#818cf8" stroke-width="1.8"/>
+
+    <!-- Inner Silicon Die -->
+    <rect x="-14" y="-14" width="28" height="28" rx="3" fill="#020617" stroke="#334155" stroke-width="1"/>
+    <!-- Glowing Center Pulse Core -->
+    <circle cx="0" cy="0" r="4.5" fill="#38bdf8" filter="url(#glow)"/>
+  </g>
+
+  <!-- Clean Vertical Divider -->
+  <line x1="195" y1="45" x2="195" y2="195" stroke="#334155" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Main Engineer Title -->
+  <text x="220" y="80"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif"
+        font-weight="800" font-size="36" letter-spacing="0.5"
+        fill="url(#textGrad)">
+    MD Rakib Hassan Dipu
+  </text>
+
+  <!-- Subtitle Tagline (No Academic Flexing) -->
+  <text x="222" y="112"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif"
+        font-weight="600" font-size="14.5" letter-spacing="1.5"
+        fill="#38bdf8">
+    EMBEDDED SYSTEMS FIRMWARE  ·  AUTONOMOUS ROBOTICS  ·  EDGE AI
+  </text>
+
+  <!-- Cohesive Minimalist Tech Stack Pills (Harmonious Cyber Palette) -->
+  <g transform="translate(222, 134)">
+    <!-- C / C++ -->
+    <rect x="0" y="0" width="80" height="28" rx="6" fill="#0c1a2e" stroke="#0284c7" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="40" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#38bdf8">C / C++</text>
+
+    <!-- FreeRTOS -->
+    <rect x="90" y="0" width="94" height="28" rx="6" fill="#0c1a2e" stroke="#0284c7" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="137" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#38bdf8">FreeRTOS</text>
+
+    <!-- ESP32-S3 -->
+    <rect x="194" y="0" width="92" height="28" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="240" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#94a3b8">ESP32-S3</text>
+
+    <!-- ROS 2 -->
+    <rect x="296" y="0" width="76" height="28" rx="6" fill="#131c38" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="334" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#818cf8">ROS 2</text>
+
+    <!-- Sensor Fusion -->
+    <rect x="382" y="0" width="128" height="28" rx="6" fill="#131c38" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="446" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#818cf8">Sensor Fusion</text>
+
+    <!-- Edge ML -->
+    <rect x="520" y="0" width="88" height="28" rx="6" fill="#1a1338" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="564" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#a855f7">Edge ML</text>
+
+    <!-- PCB Design -->
+    <rect x="618" y="0" width="102" height="28" rx="6" fill="#042017" stroke="#059669" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="669" y="18" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" fill="#34d399">PCB Design</text>
+  </g>
+
+  <!-- Bottom One-line Statement -->
+  <text x="222" y="196"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-weight="400" font-size="12.5" letter-spacing="0.3"
+        fill="#64748b">
+    Architecting physical hardware, real-time control loops, and low-power telemetry from concept to silicon.
+  </text>
+
+  <!-- Precision Corner Reticles -->
+  <path d="M 16 16 L 16 4 L 4 4"   fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 984 16 L 984 4 L 996 4" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 16 224 L 16 236 L 4 236" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 984 224 L 984 236 L 996 236" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+</svg>

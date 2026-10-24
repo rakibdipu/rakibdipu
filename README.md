@@ -3,7 +3,7 @@
 <!-- ══════════════════════════════════════════════════════════════ -->
 <div align="center">
   <a href="https://github.com/rakibdipu">
-    <img src="./assets/header.svg" width="100%" alt="Rakib Hassan Dipu — Embedded Systems · Robotics · Edge AI" />
+    <img src="./assets/banner.svg?v=3" width="100%" alt="Rakib Hassan Dipu — Embedded Systems · Robotics · Edge AI" />
   </a>
 </div>
 
@@ -249,7 +249,7 @@ I build systems that bridge physical hardware and intelligence — from schemati
 </p>
 
 <div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="" />
+  <img src="./assets/footer.svg?v=3" width="100%" alt="" />
   <br/>
   <sub><i>⚡ "The best engineers don't just write code — they engineer physical solutions that matter." ⚡</i></sub>
 </div>
